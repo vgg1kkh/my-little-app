@@ -25,12 +25,11 @@
   }
   .item_wrapper {
     position: relative;
-    /* background-color: pink; */
+    background-color: pink;
     width: 100%;
     height: 100%;
     transition: transform 0.5s;
     border: 2px solid #333; 
-    border-radius: 10px;
   }
 
   /* Add "new" to the first child */
@@ -54,15 +53,13 @@
   .thumb_img {
     width: 100%;
     height: 250px;
-    /* border-bottom: 3px solid rgb(66, 2, 2); */
-    /* border-radius: 15px; */
-    overflow: hidden;
+    border-bottom: 3px solid rgb(66, 2, 2);
+    border-radius: 15px;
   }
 
-  .projects h3 {
+  .projects div > h3 {
     text-align: center;
     margin: 20px auto 0px;
-    font-size: 20px;
     font-weight: 500;
   }
   .projects  p {

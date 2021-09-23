@@ -59,10 +59,9 @@
     overflow: hidden;
   }
 
-  .projects h3 {
+  .projects div > h3 {
     text-align: center;
     margin: 20px auto 0px;
-    font-size: 20px;
     font-weight: 500;
   }
   .projects  p {
