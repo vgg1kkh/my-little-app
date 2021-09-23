@@ -20,6 +20,7 @@
   .projects div {
     height: 280px;
     border-radius: 5%;
+    transition: all 0.5s;
   }
 
   .projects div:hover {
