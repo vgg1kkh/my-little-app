@@ -23,7 +23,7 @@ const MySwiper = () => {
       
       //need to import the autoplay feature and put it in the modules b4 you can use it
       autoplay={{
-        delay:3000 //delay the autoplay until the page is loaded
+        delay:3000 //delay the autoplay until t
       }}
       loop={true}
       speed={1000}
