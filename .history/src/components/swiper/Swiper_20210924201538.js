@@ -23,10 +23,10 @@ const MySwiper = () => {
       
       //need to import the autoplay feature and put it in the modules b4 you can use it
       autoplay={{
-        delay:3000
+        delay:2000
       }}
       loop={true}
-      speed={1000}
+      speed={500}
       // effect="fade"
       // spaceBetween={50}
       slidesPerView={1}
