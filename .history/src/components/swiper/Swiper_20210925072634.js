@@ -27,9 +27,9 @@ const MySwiper = () => {
         delay:3000 //delay the autoplay until the page is loaded
       }}
       spaceBetween={0}
-      speed={1500}
+      speed={1000}
       loop={true}
-      effect="cube" //If the CSS is not load correctly it won't work
+      effect="cube" //If the CSS is not load correctly it wo
       // spaceBetween={50}
       slidesPerView={1}
       // navigation
