@@ -11,7 +11,10 @@
     padding: 0 10px;
   }
 
+  .header .image_wrapper .swiper-container {
+    max-width: 500px;
 
+  }
   .header h2 {
     font-size: 4em;
   }

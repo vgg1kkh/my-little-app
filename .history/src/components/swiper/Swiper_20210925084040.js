@@ -18,7 +18,7 @@ SwiperCore.use([EffectFade,EffectCube,Autoplay])
 const MySwiper = () => {
   
   return (
-    <Swiper tag="section" wrapperTag="ul"
+    <Swiper tag="section" wrapperTag="ul" className={styles.swiper_box}
       // install Swiper modules
       // modules={[Navigation, EffectCube,Pagination, Scrollbar,Autoplay]}
       
@@ -29,7 +29,7 @@ const MySwiper = () => {
       spaceBetween={0}
       speed={1500}
       loop={true}
-      effect="fade" //If the CSS is not load correctly it won't work
+      effect="cube" //If the CSS is not load correctly it won't work
       // spaceBetween={50}
       slidesPerView={1}
       // navigation

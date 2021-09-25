@@ -6,12 +6,15 @@
     align-items: center;
   }
 
-  .image_wrapper {
+  .header .image_wrapper {
     max-width: 600px;
     padding: 0 10px;
   }
 
+  .swiper-container {
+    max-width: 500px;
 
+  }
   .header h2 {
     font-size: 4em;
   }

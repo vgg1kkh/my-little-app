@@ -5,7 +5,8 @@
     width: 100%;
     height: 100%;
 }
-/* .swiper_box {
+.swiper_box {
     max-width: 500px; 
-   
-  } */
+    /* refain the swiper width to 500px */
+
+  }

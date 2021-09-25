@@ -18,7 +18,7 @@ SwiperCore.use([EffectFade,EffectCube,Autoplay])
 const MySwiper = () => {
   
   return (
-    <Swiper tag="section" wrapperTag="ul"
+    <Swiper tag="section" wrapperTag="ul" className
       // install Swiper modules
       // modules={[Navigation, EffectCube,Pagination, Scrollbar,Autoplay]}
       

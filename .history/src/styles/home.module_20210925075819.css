@@ -4,13 +4,12 @@
     grid-template-columns: repeat(auto-fill, minmax(300px,600px));
     /* grid-gap: 40px; */
     align-items: center;
+    : 10px;
   }
 
-  .image_wrapper {
+  .header .image_wrapper {
     max-width: 600px;
-    padding: 0 10px;
   }
-
 
   .header h2 {
     font-size: 4em;
